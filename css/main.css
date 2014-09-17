@@ -10,6 +10,16 @@ body {
   height: 500px;
 }
 
+.instructions {
+  display: inline-block;
+  position: absolute;
+  left: 512px;
+  padding-top: 16px;
+  line-height: 1.5em;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 28px;
+}
+
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   background-repeat: no-repeat;
 }
